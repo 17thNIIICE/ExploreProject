@@ -1,0 +1,11 @@
+body{
+    background-image:url("./images/background.png");
+    background-repeat: no-repeat;
+    font-family: 'Poppins', 'Arial', sans-serif;
+}
+.container{
+    display: flex;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}

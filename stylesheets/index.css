@@ -1,0 +1,19 @@
+@import url(./normalize.css);
+body {
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  font-family: 'Poppins', 'Arial', sans-serif; }
+
+.container {
+  display: flex;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.logo-text {
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+  text-decoration: none; }
+
+/*# sourceMappingURL=index.css.map */

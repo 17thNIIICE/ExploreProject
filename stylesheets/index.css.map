@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAQ,4BAAiB;ACAzB,IAAI;EACA,gBAAgB,EAAC,8BAA8B;EAC/C,iBAAiB,EAAE,SAAS;EAC5B,WAAW,EAAE,8BAA8B;;AAE/C,UAAU;EACN,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;;ACTtB,UAAU;EACN,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,KAAK;EACZ,eAAe,EAAE,IAAI",
-"sources": ["sass/index.scss","sass/base/_base.scss","sass/blocks/_nav.scss"],
-"names": [],
-"file": "index.css"
-}
+{"version":3,"sourceRoot":"","sources":["sass/index.scss","sass/base/_base.scss","sass/blocks/_nav.scss","sass/blocks/_nav-list.scss"],"names":[],"mappings":"AAAQ;ACAR;EACI;EACA;EACA;;;AAEJ;EACI;EACA;EACA;EACA;EACA;;;ACVJ;EACI;EACA;;;AAGJ;EACI;EACA;EACA;;;AAEJ;EACI;EACA;EACA;EACA;;;ACXA;EACI;;AAGJ;EACA;EACA;;AAGA;EACI;;AAEJ;EACI;EACA;EACA;;AAEA;EACI;EACA;;AAGR;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA","file":"index.css"}

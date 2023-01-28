@@ -1,4 +1,10 @@
+//Base
 @import "./normalize.css";
+@import "./base/vars";
 @import "./base/base";
+//Blocks
 @import  "./blocks/nav";
 @import "./blocks/nav-list";
+@import "./blocks/intro-content";
+@import "./blocks/form-nav";
+@import "./blocks/form";

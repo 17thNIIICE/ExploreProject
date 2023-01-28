@@ -7,7 +7,6 @@
 
     ul{
     display: flex;
-    list-style-type: none;
     }
 
     li{
@@ -21,21 +20,6 @@
         &:hover{
             color: #FFC814;
             font-weight: 600;
-        }
-    }
-    button{
-        font-weight: 600;
-        background-color: #FFC814;
-        border: none;
-        border-radius: 4px;
-        padding: 16px 47px 16px 47px;
-        text-align: center;
-        color: #1F3347;
-        cursor: pointer;
-
-        &:hover{
-            background-color: #1F3347;
-            color:#FFC814; 
         }
     }
 }

@@ -1,0 +1,31 @@
+.booking-tab{
+    margin-top: 185px;
+
+    ul{ 
+        display: inline-flex;
+        justify-content: space-between;
+        width: 510px;
+        margin: 0px;
+        padding: 0px;
+    }
+    li{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        background-color: white;
+        border-radius: 4px 4px 0px 0px;
+        padding: 8px 27px 8px 10px;
+
+        &:hover{
+            background-color: #FFC814;
+        }
+    }
+    img{
+        margin-right: 11px;
+    }
+    a{
+        font-weight: 600;
+        text-decoration: none;
+        color: #22283C;
+    }
+}

@@ -1,0 +1,35 @@
+form{
+    background-color: white;
+    padding: 30px 38px;
+    box-shadow: 0 0 20px white;
+
+    .form-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    h3{
+        font-weight: 600;
+        font-size: 16px;
+        padding: 0;
+        margin: 0 0 7px 0;
+    }
+    input{
+        padding: 0 0 0 10px;
+        width: 170px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0 0 20px $shadow-color;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    .book-now-btn{
+        margin-top: 24px;
+        height: 56px;
+        box-shadow: 0 0 10px $accent-color;
+
+        &:hover{
+            box-shadow: 0 0 10px $accent-inverse-color;
+        }
+    }
+
+}

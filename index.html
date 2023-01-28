@@ -34,7 +34,7 @@
           </div>
         </div>
       </nav>
-      <div class="content-container header-content">
+      <div class="container header-content">
         <div class="content-wrapper">
           <h1>It’s a Big World Out There, Go Explore</h1>
   
@@ -51,37 +51,39 @@
     </header>
     <div class="booking-tab">
       <article>
-        <div class="article-wrapper">
+        <div class="container">
           <ul class="tab-items">
-            <li><i></i><a href="">Hotel</a></li>
-            <li><i></i><a href="">Flight</a></li>
-            <li><i></i><a href="">Car</a></li>
-            <li><i></i><a href="">Ship</a></li>
+            <li><img src="./stylesheets/images/hotel.png" alt=""><a href="">Hotel</a></li>
+            <li><img src="./stylesheets/images/Flight 1.png" alt=""><a href="">Flight</a></li>
+            <li><img src="./stylesheets/images/car.png" alt=""><a href="">Car</a></li>
+            <li><img src="./stylesheets/images/Ship 1.png" alt=""><a href="">Ship</a></li>
           </ul>
           <form action="">
-            <div class="form-item">
-              <h3>Your Destination</h3>
-              <input type="text" />
+            <div class="form-container">
+              <div class="form-item">
+                <h3>Your Destination</h3>
+                <input type="text" />
+              </div>
+              <div class="form-item">
+                <h3>Check in</h3>
+                <input type="date" />
+              </div>
+              <div class="form-item">
+                <h3>Check out</h3>
+                <input type="date" />
+              </div>
+              <div class="form-item">
+                <h3>Child</h3>
+                <input type="number" />
+              </div>
+              <div class="form-item">
+                <h3>Adult</h3>
+                <input type="number" />
+              </div>
+              <button class="book-now-btn submit-btn" type="submit">
+                Book Now
+              </button>
             </div>
-            <div class="form-item">
-              <h3>Check in</h3>
-              <input type="date" />
-            </div>
-            <div class="form-item">
-              <h3>Check out</h3>
-              <input type="date" />
-            </div>
-            <div class="form-item">
-              <h3>Child</h3>
-              <input type="number" />
-            </div>
-            <div class="form-item">
-              <h3>Adult</h3>
-              <input type="number" />
-            </div>
-            <button class="book-now-btn submit-btn" type="submit">
-              Book Now
-            </button>
           </form>
         </div>
       </article>
